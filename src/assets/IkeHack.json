@@ -13,62 +13,62 @@
   },
   {
     "name": "Chaise en bois chantant",
-    "pictures": "/img/chaise_chantant.jpeg",
+    "pictures": "/img/chaise_chantant.jpg",
     "type": "chaise musicale",
     "price": 49.99
   },
   {
     "name": "Table basse en verre flottante",
-    "pictures": "/img/table_flottante.jpeg",
+    "pictures": "/img/table_flottante.jpg",
     "type": "table basse magique",
     "price": 149.99
   },
   {
     "name": "Armoire en chêne à double fond",
-    "pictures": "/img/armoire_doublefond.jpeg",
+    "pictures": "/img/armoire_doublefond.jpg",
     "type": "armoire mystérieuse",
     "price": 799.99
   },
   {
     "name": "Canapé en cuir auto-massant",
-    "pictures": "/img/canape_massant.jpeg",
+    "pictures": "/img/canape_massant.png",
     "type": "canapé relaxant",
     "price": 1299.99
   },
   {
     "name": "Lit king size anti-gravité",
-    "pictures": "/img/lit_antigravite.jpeg",
+    "pictures": "/img/lit_antigravite.jpg",
     "type": "lit volant",
     "price": 999.99
   },
   {
     "name": "Bureau d’ordinateur holographique",
-    "pictures": "/img/bureau_holographique.jpeg",
+    "pictures": "/img/bureau_holographique.jpg",
     "type": "bureau futuriste",
     "price": 199.99
   },
   {
     "name": "Bibliothèque en pin parlante",
-    "pictures": "/img/bibliotheque_parlante.jpeg",
+    "pictures": "/img/bibliotheque_parlante.jpg",
     "type": "bibliothèque magique",
     "price": 299.99
   },
   {
     "name": "Commode vintage temporelle",
-    "pictures": "/img/commode_temporelle.jpeg",
+    "pictures": "/img/commode_temporelle.jpg",
     "type": "commode magique",
     "price": 249.99
   },
   {
-    "name": "Chaise de bureau ergonomique qui danse",
-    "pictures": "/img/chaise_dansante.jpeg",
-    "type": "chaise de bureau amusante",
+    "name": "Canapé anti-poils de chat",
+    "pictures": "/img/canape_antipoils.jpg",
+    "type": "canapé anti-poils",
     "price": 149.99
   },
   {
-    "name": "Table de salle à manger extensible infinie",
-    "pictures": "/img/table_infinie.jpeg",
-    "type": "table magique",
+    "name": "Table de salle à manger peu inclusive",
+    "pictures": "/img/table.jpg",
+    "type": "table pas inclusive du tout",
     "price": 599.99
   }
 ]
