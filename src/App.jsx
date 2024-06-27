@@ -3,31 +3,24 @@
   import furnituresData from './assets/IkeHack.json'
 
 function App() {
-const furnitures = furniture()
-let furArr = []
-  for(let i = 0; i < 6; i++) {
-    furArr.push(furnitures)
-  }
   return (
     <div className="grid">
-      {furArr.map((furniture, index) => (
-        <div key={index}>{furniture}</div>
+      {furnituresData.map((furniture, index) => (
+        <Furniture key={index} data={furniture} />
       ))}
     </div>
   )
 }
 
-function furniture(){
-
+function Furniture({ data }){
   return (
-      <div className="card">
-        <img src={tabouret} alt="tabouret 60's" />
-        <h1>Tabouret 60's</h1>
-        <p>
-          100% plastique
-        </p>
-        <button>Buy</button>
-      </div>
+    <div className="card">
+      <img src={data.pictures}/>
+      <h1>{data.name}</h1>
+      <p>{data.type}</p>
+      <p>Price: ${data.price}</p>
+      <button>Buy</button>
+    </div>
   )
 }
 

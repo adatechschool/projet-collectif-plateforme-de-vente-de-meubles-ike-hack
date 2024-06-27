@@ -1,13 +1,14 @@
+[
 {
-  "furnitures" : [{
     "name": "tabouret plastique",
-    "pictures": ["./assets/tabouret.jpeg"],
+    "pictures": "./assets/tabouret.jpeg",
     "type": "tabouret",
     "price": 99.99
-  },{
+  },
+  {
     "name": "Ensemble meuble Tchoupi",
     "pictures": "./assets/ensembleTchoupi.jpg",
     "type": "ensemble de meuble",
     "price": 1000000000
-  }]
-}
+  }
+]
