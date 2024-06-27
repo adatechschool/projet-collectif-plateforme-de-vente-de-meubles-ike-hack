@@ -1,5 +1,5 @@
-import logo from './assets/logo.svg';
-import accountLogo from './assets/account.svg'
+import logo from '../assets/logo.svg';
+import accountLogo from '../assets/account.svg'
 
 function Header() {
 
