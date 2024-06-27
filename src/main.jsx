@@ -1,10 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Header from './Header.jsx'
-import App from './App.jsx'
-import Footer from './Footer.jsx'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Header from './Header.jsx';
+import App from './App.jsx';
+import Footer from './Footer.jsx';
+import './index.css';
 
 const router = createBrowserRouter([
   {
@@ -13,26 +13,47 @@ const router = createBrowserRouter([
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
-);
+const rootElement = document.getElementById("root");
+const headerElement = document.getElementById('header');
+const homeElement = document.getElementById('home');
+const footerElement = document.getElementById('footer');
 
-ReactDOM.createRoot(document.getElementById('header')).render(
-  <React.StrictMode>
-    <Header />
-  </React.StrictMode>,
-)
+if (rootElement) {
+  ReactDOM.createRoot(rootElement).render(
+    <React.StrictMode>
+      <RouterProvider router={router} />
+    </React.StrictMode>
+  );
+} else {
+  console.error("Element with id 'root' not found");
+}
 
-ReactDOM.createRoot(document.getElementById('home')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+if (headerElement) {
+  ReactDOM.createRoot(headerElement).render(
+    <React.StrictMode>
+      <Header />
+    </React.StrictMode>,
+  );
+} else {
+  console.error("Element with id 'header' not found");
+}
 
-ReactDOM.createRoot(document.getElementById('footer')).render(
-  <React.StrictMode>
-    <Footer />
-  </React.StrictMode>,
-)
+if (homeElement) {
+  ReactDOM.createRoot(homeElement).render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+  );
+} else {
+  console.error("Element with id 'home' not found");
+}
+
+if (footerElement) {
+  ReactDOM.createRoot(footerElement).render(
+    <React.StrictMode>
+      <Footer />
+    </React.StrictMode>,
+  );
+} else {
+  console.error("Element with id 'footer' not found");
+}
