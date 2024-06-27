@@ -15,7 +15,7 @@ function Home() {
 function AllFurnitures({ data }){
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate('/Furniture'); // Navigue vers la page "/about"
+    navigate('/Furniture?'+data.id); // Navigue vers la page "/about"
   };
 return (
   <div className="card">
