@@ -19,11 +19,11 @@ body {
 }
 
 /******************************** HEADER *********************************/
-header {
+.header {
     background: var(--enhance-color);
 }
 
-#header ul {
+.header ul {
     list-style: none;
     display: inline-flex;
     flex-wrap: wrap;
@@ -36,7 +36,7 @@ header {
 }
 
 
-#header li{
+.header li{
     /* unité de mesure em (bonne pratique pour les font) = une largeur de "m" avec cette police de caractères*/
     font-size: 1.8em;
     font-family: "Righteous", sans-serif;
@@ -44,7 +44,7 @@ header {
     margin-right: 30px;
 }
 
-#header a {
+.header a {
     color: var(--ligher-color);
     text-decoration: none;
 }
