@@ -18,3 +18,10 @@ pip install -r requirements.txt
 
 Installation mysql:
 pip install mysqlclient
+
+Intégration BDD dans Djangorest et connexion entre les deux:
+
+python manage.py migrate  **/rajoute la gestion d'authentification dans la BDD mysql
+python manage.py runserver  **/ relance le serveur virtuel
+
+Création du modèle dans models.py en cours: class = nom de la colonne  field = valeur ou nom des raws(à vérifier)
