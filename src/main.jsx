@@ -4,14 +4,14 @@ import App from './App.jsx';
 import './index.css';
 
 
-const homeElement = document.getElementById('home');
+const rootElement = document.getElementById('root');
 
-if (homeElement) {
-  ReactDOM.createRoot(homeElement).render(
+if (rootElement) {
+  ReactDOM.createRoot(rootElement).render(
     <React.StrictMode>
       <App />
     </React.StrictMode>,
   );
 } else {
-  console.error("Element with id 'home' not found");
+  console.error("Element with id 'root' not found");
 }
