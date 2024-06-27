@@ -1,6 +1,6 @@
   import { useState } from 'react'
   import './App.css'
-  import tabouret from './assets/tabouret.jpeg'
+  import furnituresData from './assets/IkeHack.json'
 
 function App() {
 const furnitures = furniture()
@@ -10,12 +10,15 @@ let furArr = []
   }
   return (
     <div className="grid">
-    furArr
+      {furArr.map((furniture, index) => (
+        <div key={index}>{furniture}</div>
+      ))}
     </div>
   )
 }
 
 function furniture(){
+
   return (
       <div className="card">
         <img src={tabouret} alt="tabouret 60's" />
