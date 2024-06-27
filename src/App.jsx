@@ -18,7 +18,7 @@ function Furniture({ data }){
       <img src={data.pictures}/>
       <h1>{data.name}</h1>
       <p>{data.type}</p>
-      <p>Price: ${data.price}</p>
+      <p>Price: {data.price}€</p>
       <button>Buy</button>
     </div>
   )
