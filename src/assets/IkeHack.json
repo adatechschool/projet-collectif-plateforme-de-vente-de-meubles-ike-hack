@@ -1,74 +1,74 @@
 [
   {
-    "name": "tabouret plastique",
+    "name": "Tabouret volant en plastique",
     "pictures": "/img/tabouret.jpeg",
-    "type": "tabouret",
+    "type": "tabouret magique",
     "price": 99.99
   },
   {
     "name": "Ensemble meuble Tchoupi",
     "pictures": "/img/ensembleTchoupi.jpg",
-    "type": "ensemble de meuble",
+    "type": "ensemble de meuble enchanté",
     "price": 1000000000
   },
   {
-    "name": "Chaise en bois",
-    "pictures": "/img/tabouret.jpeg",
-    "type": "chaise",
+    "name": "Chaise en bois chantant",
+    "pictures": "/img/chaise_chantant.jpeg",
+    "type": "chaise musicale",
     "price": 49.99
   },
   {
-    "name": "Table basse en verre",
-    "pictures": "/img/tabouret.jpeg",
-    "type": "table basse",
+    "name": "Table basse en verre flottante",
+    "pictures": "/img/table_flottante.jpeg",
+    "type": "table basse magique",
     "price": 149.99
   },
   {
-    "name": "Armoire en chêne",
-    "pictures": "/img/tabouret.jpeg",
-    "type": "armoire",
+    "name": "Armoire en chêne à double fond",
+    "pictures": "/img/armoire_doublefond.jpeg",
+    "type": "armoire mystérieuse",
     "price": 799.99
   },
   {
-    "name": "Canapé en cuir",
-    "pictures": "/img/tabouret.jpeg",
-    "type": "canapé",
+    "name": "Canapé en cuir auto-massant",
+    "pictures": "/img/canape_massant.jpeg",
+    "type": "canapé relaxant",
     "price": 1299.99
   },
   {
-    "name": "Lit king size",
-    "pictures": "/img/tabouret.jpeg",
-    "type": "lit",
+    "name": "Lit king size anti-gravité",
+    "pictures": "/img/lit_antigravite.jpeg",
+    "type": "lit volant",
     "price": 999.99
   },
   {
-    "name": "Bureau d’ordinateur",
-    "pictures": "/img/tabouret.jpeg",
-    "type": "bureau",
+    "name": "Bureau d’ordinateur holographique",
+    "pictures": "/img/bureau_holographique.jpeg",
+    "type": "bureau futuriste",
     "price": 199.99
   },
   {
-    "name": "Bibliothèque en pin",
-    "pictures": "/img/tabouret.jpeg",
-    "type": "bibliothèque",
+    "name": "Bibliothèque en pin parlante",
+    "pictures": "/img/bibliotheque_parlante.jpeg",
+    "type": "bibliothèque magique",
     "price": 299.99
   },
   {
-    "name": "Commode vintage",
-    "pictures": "/img/tabouret.jpeg",
-    "type": "commode",
+    "name": "Commode vintage temporelle",
+    "pictures": "/img/commode_temporelle.jpeg",
+    "type": "commode magique",
     "price": 249.99
   },
   {
-    "name": "Chaise de bureau ergonomique",
-    "pictures": "/img/tabouret.jpeg",
-    "type": "chaise de bureau",
+    "name": "Chaise de bureau ergonomique qui danse",
+    "pictures": "/img/chaise_dansante.jpeg",
+    "type": "chaise de bureau amusante",
     "price": 149.99
   },
   {
-    "name": "Table de salle à manger extensible",
-    "pictures": "/img/tabouret.jpeg",
-    "type": "table de salle à manger",
+    "name": "Table de salle à manger extensible infinie",
+    "pictures": "/img/table_infinie.jpeg",
+    "type": "table magique",
     "price": 599.99
   }
 ]

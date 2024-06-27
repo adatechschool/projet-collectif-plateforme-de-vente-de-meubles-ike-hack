@@ -18,12 +18,12 @@ function AllFurnitures({ data }){
     navigate('/Furniture'); // Navigue vers la page "/about"
   };
 return (
-  <div className="card" onClick={handleClick}>
+  <div className="card">
     <img src={data.pictures}/>
     <h1>{data.name}</h1>
     <p>{data.type}</p>
     <p>Price: {data.price}€</p>
-    <button>Buy</button>
+    <button onClick={handleClick}>Buy</button>
   </div>
 )
 }
