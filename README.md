@@ -15,3 +15,6 @@ tzdata==2024.1
 
 Installation des frameworks:
 pip install -r requirements.txt
+
+Installation mysql:
+pip install mysqlclient
