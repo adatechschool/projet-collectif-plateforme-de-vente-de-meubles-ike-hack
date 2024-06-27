@@ -1,14 +1,74 @@
 [
-{
+  {
     "name": "tabouret plastique",
-    "pictures": "./assets/tabouret.jpeg",
+    "pictures": "/img/tabouret.jpeg",
     "type": "tabouret",
     "price": 99.99
   },
   {
     "name": "Ensemble meuble Tchoupi",
-    "pictures": "./assets/ensembleTchoupi.jpg",
+    "pictures": "/img/tabouret.jpeg",
     "type": "ensemble de meuble",
     "price": 1000000000
+  },
+  {
+    "name": "Chaise en bois",
+    "pictures": "/img/tabouret.jpeg",
+    "type": "chaise",
+    "price": 49.99
+  },
+  {
+    "name": "Table basse en verre",
+    "pictures": "/img/tabouret.jpeg",
+    "type": "table basse",
+    "price": 149.99
+  },
+  {
+    "name": "Armoire en chêne",
+    "pictures": "/img/tabouret.jpeg",
+    "type": "armoire",
+    "price": 799.99
+  },
+  {
+    "name": "Canapé en cuir",
+    "pictures": "/img/tabouret.jpeg",
+    "type": "canapé",
+    "price": 1299.99
+  },
+  {
+    "name": "Lit king size",
+    "pictures": "/img/tabouret.jpeg",
+    "type": "lit",
+    "price": 999.99
+  },
+  {
+    "name": "Bureau d’ordinateur",
+    "pictures": "/img/tabouret.jpeg",
+    "type": "bureau",
+    "price": 199.99
+  },
+  {
+    "name": "Bibliothèque en pin",
+    "pictures": "/img/tabouret.jpeg",
+    "type": "bibliothèque",
+    "price": 299.99
+  },
+  {
+    "name": "Commode vintage",
+    "pictures": "/img/tabouret.jpeg",
+    "type": "commode",
+    "price": 249.99
+  },
+  {
+    "name": "Chaise de bureau ergonomique",
+    "pictures": "/img/tabouret.jpeg",
+    "type": "chaise de bureau",
+    "price": 149.99
+  },
+  {
+    "name": "Table de salle à manger extensible",
+    "pictures": "/img/tabouret.jpeg",
+    "type": "table de salle à manger",
+    "price": 599.99
   }
 ]
