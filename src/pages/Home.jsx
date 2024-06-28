@@ -19,10 +19,12 @@ function AllFurnitures({ data }){
   };
 return (
   <div className="card">
-    <img src={data.pictures}/>
+    <div className='img_container'>
+      <img src={data.pictures}/>
+    </div>
     <h1>{data.name}</h1>
     <p>{data.type}</p>
-    <p>Price: {data.price}€</p>
+    <p>{data.price}€</p>
     <button onClick={handleClick}>Buy</button>
   </div>
 )
