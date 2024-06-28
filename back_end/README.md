@@ -25,3 +25,23 @@ python manage.py migrate  **/rajoute la gestion d'authentification dans la BDD m
 python manage.py runserver  **/ relance le serveur virtuel
 
 Création du modèle dans models.py en cours: class = nom de la colonne  field = valeur ou nom des raws(à vérifier)
+
+# notes vendredi
+## architecture dans models.py
+-> pour les image, "blob" pas ouf
+-> binary field permet de récupérer images dans la BDD
+-> checker si y'a des formats d'img qui passent pas
+
+## bdd django
+-> toutes les tables en + de furnitures et types permettent de gérer la connexion et authentification
+-> tips éloise : fait automatiquement un find all (récupère toute les infos), faut être super précis.e dans les requêtes
+
+## serializer.py
+-> pour une bonne gestion des hyperliens (à creuser)
+
+## views.py
+-> là où on fait les requêtes, sûrement ici qu'on gère les endpoints (à creuser o6)
+
+## ps
+-> y'a un fichier qui permet de ramener des JSON au front (todo: trouver lequel)
+-> commandes pip équivalent à npm sur js

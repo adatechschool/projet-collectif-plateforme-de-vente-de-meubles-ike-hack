@@ -1,9 +1,10 @@
 from django.db import models
 
-# Create your models here.
+# Create your models here. furnitures = modèle des modèles
 
 class furnitures(models.Model):
     # Définissez vos champs ici
+    # columns_name = models.typeField(parameters)
     id = models.IntegerField(primary_key = True, null =False)
     name = models.CharField(max_length = 100)
     price = models.DecimalField(max_digits = 10, decimal_places = 2)
