@@ -14,7 +14,10 @@ class furnitures(models.Model):
     pictureOne = models.BinaryField(blank = False, null = False)    # A voir pour les valeurs (false/true)
     pictureTwo = models.BinaryField(blank = False, null = False)    # A voir pour les valeurs (false/true)
     pictureThree = models.BinaryField(blank = False, null = False)    # A voir pour les valeurs (false/true)
+    type_id = models.ForeignKey('types', on_delete=models.CASCADE)
 
 
 class types(models.Model):
     # Définissez vos champs ici
+    id = models.IntegerField(primary_key = True, null =False)
+    name = models.CharField(max_length = 100)
