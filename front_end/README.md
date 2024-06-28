@@ -1,6 +1,8 @@
 ## launch
 Pour lancer le projet :
-terminal: 'npm run dev'
+terminal: 
+'npm install'
+'npm run dev'
 -> montre l'adresse 'localhost:----'
 go sur cette adresse
 
