@@ -1,8 +1,9 @@
 from django.db import models
 
 # Create your models here. furnitures = modèle des modèles
+# class = nom de la colonne  field = valeur ou nom des raws(à vérifier)
 
-class furnitures(models.Model):
+class Furnitures(models.Model):
     # Définissez vos champs ici
     # columns_name = models.typeField(parameters)
     id = models.IntegerField(primary_key = True, null =False)

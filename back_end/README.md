@@ -1,32 +1,38 @@
-Création de l'environnement virtuel:
+# Création de l'environnement virtuel:
 
-py -3 -m venv .venv
+_py -3 -m venv .venv_
 
-.venv\scripts\activate
+_.venv\scripts\activate_
 
-python -m pip install --upgrade pip
+_python -m pip install --upgrade pip_
 
-Création d'un requirements.txt contenant les différents framework : 
+# Installation des frameworks:
+_pip install -r requirements.txt_
+
+## Création d'un requirements.txt contenant les différents framework : 
 asgiref==3.8.1
 Django==5.0.6
 djangorestframework==3.15.2
 sqlparse==0.5.0
 tzdata==2024.1
 
-Installation des frameworks:
-pip install -r requirements.txt
+# Installation mysql:
+_pip install mysqlclient_
 
-Installation mysql:
-pip install mysqlclient
+# Intégration BDD dans Djangorest et connexion entre les deux:
 
-Intégration BDD dans Djangorest et connexion entre les deux:
+_python manage.py migrate_  **/rajoute la gestion d'authentification dans la BDD mysql
 
-python manage.py migrate  **/rajoute la gestion d'authentification dans la BDD mysql
-python manage.py runserver  **/ relance le serveur virtuel
+# Run
+!! se placer au même endroit que manage.py pour executer les cmd
+_python manage.py runserver_  **/ relance le serveur virtuel
 
-Création du modèle dans models.py en cours: class = nom de la colonne  field = valeur ou nom des raws(à vérifier)
+login (superuser)
+username: root
+email: root@root.com
+passwd: root
 
-# notes vendredi
+# notes passation
 ## architecture dans models.py
 -> pour les image, "blob" pas ouf
 -> binary field permet de récupérer images dans la BDD
