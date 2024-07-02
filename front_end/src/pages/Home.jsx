@@ -1,5 +1,6 @@
 import furnituresData from '../assets/IkeHack.json'
 import Furniture from '../components/Furniture.jsx'
+import FetchApi from '../components/Fetch.jsx'
 
 function Home() {
   return (
@@ -11,5 +12,6 @@ function Home() {
 )
 }
 
+<div>{FetchApi}</div>
 
 export default Home
