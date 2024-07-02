@@ -4,14 +4,22 @@
     "name": "Tabouret volant en plastique",
     "pictures": "/img/tabouret.jpeg",
     "type": "tabouret magique",
-    "price": 99.99
+    "price": 99.99,
+    "size": "h: 1m - d: 6m",
+    "color": "Noir",
+    "material": "Boue",
+    "disponibility": "Disponible bien sûr !"
   },
   {
     "id": 2,
     "name": "Ensemble meuble Tchoupi",
     "pictures": "/img/ensembleTchoupi.jpg",
     "type": "ensemble de meuble enchanté",
-    "price": 1000000000
+    "price": 1000000000,
+    "size": "Taille auto-adaptable",
+    "color": "Toutes !",
+    "material": "Mousse de bain",
+    "disponibility": "Disponible bien sûr !"
   },
   {
     "id": 3,

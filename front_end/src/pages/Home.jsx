@@ -1,35 +1,10 @@
 import React, { useEffect, useState } from 'react';   // Importation des hooks nécessaires depuis la bibliothèque REACT
 
-// import furnituresData from '../assets/IkeHack.json'
-// import Furniture from '../components/Furniture.jsx'
-// import FetchApi from '../components/Fetch.jsx'
 
-// function Home({data}) {
-//   console.log(data)
-//   return (
-//     <div className="grid">
-//     {
-//     // furnituresData.map((furniture, index) => (
-//     //   <Furniture key={index} data={furniture} />
-//     // ))
-//     data.map((id, albums) => (
-//       <p key={albums}>{id.title}</p>
-//     ))
-//     }
-  
-//   </div>
-// )
-// }
-
-// <div>{FetchApi}</div>
-
-// export default Home
-
-
- // Définition du component FetchApi
+// Définition du component FetchApi
 function FetchApi() {
   // Utilisation du hook useState pour créer une variable d'état 'data' et une fonction pour la mettre à jour 'setData', le null correspond à l'initialisation
-    const [data, setData] = useState(null);   
+  const [data, setData] = useState(null);   
 
   // Utilisation du hook 'useEffect' pour executer du code après le rendu du component
   useEffect(() => {   
@@ -55,22 +30,6 @@ function FetchApi() {
               <p key={albums}>{id.id}: TITRE: {id.title}: ID DE L'UTILISATEUR: {id.userId}</p>
             ))}
           </div>);
-
-  // return <Home data={data} />; // Passer les données en tant que props au composant Home
 }
 
 export default FetchApi   // Permet d'exporter le component pour qu'il puisse être utilisé dans d'autres parties de l'application
-// import React from 'react';
-
-// function Home({ data }) { // Recevoir les données en tant que props
-//   return (
-//     <div>
-//       <h1>Données récupérées :</h1>
-//       {data.map((item, index) => (
-//         <p key={index}>{item.nom}</p>
-//       ))}
-//     </div>
-//   );
-// }
-
-// export default Home;

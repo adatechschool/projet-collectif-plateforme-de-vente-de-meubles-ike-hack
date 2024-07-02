@@ -18,7 +18,14 @@ function Furniture(){
                 </div>
                 <div className='furniture_infos'>
                     <h1>{furniture.name}</h1>
-                    <h2>{furniture.type}, {furniture.price}€</h2>
+                    <h2>{furniture.type}</h2>
+                    <h2>{furniture.price}€</h2>
+                    <ul>
+                        <li>Taille: {furniture.size}</li>
+                        <li>Couleur: {furniture.color}</li>
+                        <li>Matière: {furniture.material}</li>
+                        <li>Disponibilité: {furniture.disponibility}</li>
+                    </ul>
                     {/* <p>data.type data.couleur de data.dimentions en data.matière</p> */}
                     <button>BUY</button>
                 </div>
