@@ -1,17 +1,12 @@
-/* importer les fonts Literata et Righteous depuis l'API de Google*/
+/* Importer les fonts Literata et Righteous depuis l'API de Google */
 @import url('https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,200..900&family=Righteous&display=swap');
 
-/* les déclarations qui commencent par -- sont des variables css.
-pour des questions de facilité, si on veux changer les couleurs de la page, on les change directement dans les variables,
-ça évite d'aller chercher les couleurs dans tous le documents. */
-
-/* pour les appeler, on utilise var(--supervariable) */
-
+/* Déclarations des variables CSS pour faciliter les changements de couleur */
 body {
     --main-color: #31363F;
     --darker-color: #222831;
     --ligher-color: #EEEEEE;
-    --enhance-color :#54bea9;
+    --enhance-color: #54bea9;
     font-family: "Literata", serif;
     background: var(--darker-color);
     color: var(--ligher-color);
@@ -35,14 +30,11 @@ body {
     align-items: center;
     align-content: space-around;
     padding: 0;
-    /* unité de mesure "vw" = largeur de la fenêtre en pourcentage (vh = hauteur de la fenêtre) */
-    width: 100vw;
+    width: 100vw;  /* unité de mesure "vw" = largeur de la fenêtre en pourcentage (vh = hauteur de la fenêtre) */
 }
 
-
-.header li{
-    /* unité de mesure em (bonne pratique pour les font) = une largeur de "m" avec cette police de caractères*/
-    font-size: 1.8em;
+.header li {
+    font-size: 1.8em;  /* unité de mesure em (bonne pratique pour les font) = une largeur de "m" avec cette police de caractères*/
     font-family: "Righteous", sans-serif;
     margin-left: 30px;
     margin-right: 30px;
@@ -53,19 +45,9 @@ body {
     text-decoration: none;
 }
 
-/******************************** FOOTER *********************************/
-
-footer {
-    background: var(--main-color);
-    /* position: fixed; */
-    bottom: 0;
-    width: 100vw;
-}
-
 /******************************** HOME *********************************/
-
 /* conteneur des encarts, qui les dispose en grille */
-.grid{
+.grid {
     width: 70vw;
     display: grid;
     margin: 0 auto;
@@ -73,38 +55,36 @@ footer {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
+
 /* les encarts */
 .card {
     background: var(--main-color);
     margin: 20px;
     padding: 20px;
     border-radius: 15px;
-    /* transition: donne des propriétés de transition entre l'état initial de l'objet et son état après action. Ici, :hover (l91) */
-    transition: all 200ms ease-in;
-    /* box-shadow crée une ombre derrière l'objet décalée de 2px, d'une largeur de 10px et de la couleur #13171c */
-    box-shadow: 2px 2px 10px #13171c;
+    transition: all 200ms ease-in;    /* transition: donne des propriétés de transition entre l'état initial de l'objet et son état après action. Ici, :hover (l91) */
+    box-shadow: 2px 2px 10px #13171c;   /* box-shadow crée une ombre derrière l'objet décalée de 2px, d'une largeur de 10px et de la couleur #13171c */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.card h1{
+.card h1 {
     color: var(--enhance-color);
     font-size: 1.2em;
 }
 
-/* :hover = action qui enclanche la transformation */
-.card:hover{
-    transform: scale(1.01);
+.card:hover {
+    transform: scale(1.01); /* :hover = action qui enclanche la transformation */
 }
 
-.img_container{
+.img_container {
     width: 250px;
     height: 250px;
     overflow: hidden;
 }
 
-.card img{
+.card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -113,11 +93,11 @@ footer {
     transition: all 300ms ease-in-out;
 }
 
-.card:hover img{
+.card:hover img {
     filter: grayscale(0%) sepia(0%) hue-rotate(0deg);
 }
 
-button{
+button {
     background: var(--enhance-color);
     color: var(--ligher-color);
     font-family: "Righteous", sans-serif;
@@ -127,32 +107,166 @@ button{
     transition: all 100ms ease-in-out;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
     box-shadow: 0px 0px 20px var(--enhance-color);
 }
 
 /******************************** Products *********************************/
-
-.container{
+.container {
     margin-left: 15vw;
     padding-top: 15vh;
     width: 60vw;
     display: inline-flex;
 }
 
-.carousel{
+.carousel {
     width: 30vw;
     height: auto;
     overflow: hidden;
 }
 
-.carousel img{
+.carousel img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.furniture_infos{
+.furniture_infos {
     margin-left: 5vw;
+}
+
+/******************************** FOOTER *********************************/
+.footer {
+    background: var(--main-color);
+    color: var(--ligher-color);
+    padding: 20px 0;
+    width: 90%;
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 200ms ease-in;
+    box-shadow: 2px 2px 10px #13171c;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.footer:hover {
+    transform: scale(1.01);
+}
+
+.footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.boutique {
+    color: white;
+    font-size: 24px; 
+  }
+
+.footer .footer-section {
+    flex: 1;
+    padding: 10px;
+    min-width: 250px;
+}
+
+.footer .logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--ligher-color);
+}
+
+.propos {
+    margin-left: 2px;
+}
+
+.footer .contact span {
+    display: block;
+    margin: 5px 0;
+}
+
+.footer .socials {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer .socials a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--ligher-color);
+    font-size: 20px;
+}
+
+.footer .socials a:hover {
+    color: var(--enhance-color);
+}
+
+.footer .socials a svg {
+    margin-right: 8px;
+}
+
+.footer .links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer .links ul li {
+    margin: 5px 0;
+}
+
+.footer .links ul a {
+    color: var(--ligher-color);
+    text-decoration: none;
+    display: block;
+}
+
+.footer .links ul a:hover {
+    color: var(--enhance-color);
+}
+
+.footer .contact-form .text-input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer .footer-bottom {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #555;
+    margin-top: 20px;
+}
+
+
+/* Design Responsive pour le Footer  */
+@media (max-width: 768px) {
+    .footer {
+        width: 100%;
+        margin: 10px 0;  
+    }
+    .footer .footer-content {
+        width: 95%;  
+        padding: 10px;
+    }
+    .footer .footer-section {
+        min-width: 100%;
+        padding: 5px; 
+    }
+    .footer .socials {
+        flex-direction: row;  
+        flex-wrap: wrap;  
+    }
+    .footer .socials a {
+        font-size: 16px; 
+    }
 }
